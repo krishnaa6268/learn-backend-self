@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ol id="userList"></ol>
+
+    <script>
+    fetch("/api/users")
+      .then(res => res.json())
+      .then(data => {
+        const list = document.getElementById("userList");
+
+        data.forEach(user => {
+          const li = document.createElement("li");
+          li.textContent = user.first_name;
+          list.appendChild(li);
+        });
+      });
+  </script>
+  </body>
+</html>
