@@ -12,3 +12,5 @@
 2026-03-21T17:57:41.977Z - GET /.well-known/appspecific/com.chrome.devtools.json
 2026-03-21T17:59:42.258Z - GET /api/users
 2026-03-21T18:00:09.537Z - GET /api/users
+2026-03-22T11:01:43.440Z - GET /users
+2026-03-22T11:01:43.691Z - GET /api/users

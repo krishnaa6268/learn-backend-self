@@ -46,7 +46,7 @@ app.get("/users", (req, res) => {
 // REST APIs
 app.get("/api/users", (req, res) => {
   // console.log("----", req.ip);
-  res.setHeader("X-MyName", "Krishnaa");
+  res.setHeader("X-MyName", "Krishnaa Gupta");
   // always add X to custom header to avoid conflict with standard headers
   return res.json(users);
   // return res.send("Hyy m2 chip");
